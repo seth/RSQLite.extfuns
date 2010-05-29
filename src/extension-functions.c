@@ -160,7 +160,6 @@ typedef struct node{
 typedef struct map{
   node *base;
   cmp_func cmp;
-  short free;
 } map;
 
 /*
